@@ -4,11 +4,11 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	Cfg
-Summary:	Tie::Cfg - Ties simple configuration files to hashes.
-#Summary(pl):	
+Summary:	Tie::Cfg - Ties simple configuration files to hashes
+Summary(pl):	Modu³ Tie::Cfg - wi±¿±cy proste pliki konfiguracyjne z haszami
 Name:		perl-Tie-Cfg
 Version:	0.11
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -19,13 +19,17 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This module reads in a configuration file at 'tie' and writes it at
-'untie'.  You can use file locking to prevent others from accessing the
+'untie'. You can use file locking to prevent others from accessing the
 configuration file, but this should only be used if the configuration
 file is used as a kind of a database to hold a few entries that can be
 concurrently accessed.
 
-# %description -l pl
-# TODO
+%description -l pl
+Ten modu³ czyta plik konfiguracyjny przy wywo³aniu tie, a zapisuje
+przy untie. Pozwala na u¿ywanie blokowania, aby zapobiec dostêpowi do
+pliku przez innych - ale to powinno byæ u¿ywane tylko je¶li plik
+konfiguracyjny jest rodzajem bazy danych, trzymaj±cym kilka wpisów, do
+których mo¿e byæ jednoczesny dostêp.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
