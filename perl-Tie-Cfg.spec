@@ -7,8 +7,8 @@
 Summary:	Tie::Cfg - Ties simple configuration files to hashes
 Summary(pl):	Modu³ Tie::Cfg - wi±¿±cy proste pliki konfiguracyjne z haszami
 Name:		perl-Tie-Cfg
-Version:	0.11
-Release:	2
+Version:	0.13
+Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
