@@ -10,7 +10,8 @@ Summary(pl):	Tie::Cfg - powi±zanie prostych plików konfiguracyjnych z haszami
 Name:		perl-Tie-Cfg
 Version:	0.32
 Release:	1
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2c1f051a98cbcf3b0495c82e15b159b4
