@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tie
-%define	pnam	Cfg
+%define		pdir	Tie
+%define		pnam	Cfg
 Summary:	Tie::Cfg - ties simple configuration files to hashes
 Summary(pl):	Tie::Cfg - powi±zanie prostych plików konfiguracyjnych z haszami
 Name:		perl-Tie-Cfg
