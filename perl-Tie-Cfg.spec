@@ -6,7 +6,7 @@
 %define		pdir	Tie
 %define		pnam	Cfg
 Summary:	Tie::Cfg - ties simple configuration files to hashes
-Summary(pl):	Tie::Cfg - powi±zanie prostych plików konfiguracyjnych z haszami
+Summary(pl.UTF-8):   Tie::Cfg - powiÄ…zanie prostych plikÃ³w konfiguracyjnych z haszami
 Name:		perl-Tie-Cfg
 Version:	0.32
 Release:	2
@@ -30,12 +30,12 @@ configuration file, but this should only be used if the configuration
 file is used as a kind of a database to hold a few entries that can be
 concurrently accessed.
 
-%description -l pl
-Ten modu³ czyta plik konfiguracyjny przy wywo³aniu tie, a zapisuje
-przy untie. Pozwala na u¿ywanie blokowania, aby zapobiec dostêpowi do
-pliku przez innych - ale to powinno byæ u¿ywane tylko je¶li plik
-konfiguracyjny jest rodzajem bazy danych, trzymaj±cym kilka wpisów, do
-których mo¿e byæ jednoczesny dostêp.
+%description -l pl.UTF-8
+Ten moduÅ‚ czyta plik konfiguracyjny przy wywoÅ‚aniu tie, a zapisuje
+przy untie. Pozwala na uÅ¼ywanie blokowania, aby zapobiec dostÄ™powi do
+pliku przez innych - ale to powinno byÄ‡ uÅ¼ywane tylko jeÅ›li plik
+konfiguracyjny jest rodzajem bazy danych, trzymajÄ…cym kilka wpisÃ³w, do
+ktÃ³rych moÅ¼e byÄ‡ jednoczesny dostÄ™p.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
