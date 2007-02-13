@@ -6,7 +6,7 @@
 %define		pdir	Tie
 %define		pnam	Cfg
 Summary:	Tie::Cfg - ties simple configuration files to hashes
-Summary(pl.UTF-8):   Tie::Cfg - powiązanie prostych plików konfiguracyjnych z haszami
+Summary(pl.UTF-8):	Tie::Cfg - powiązanie prostych plików konfiguracyjnych z haszami
 Name:		perl-Tie-Cfg
 Version:	0.32
 Release:	2
