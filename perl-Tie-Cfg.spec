@@ -4,7 +4,6 @@
 
 %define		pdir	Tie
 %define		pnam	Cfg
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tie::Cfg - ties simple configuration files to hashes
 Summary(pl.UTF-8):	Tie::Cfg - powiązanie prostych plików konfiguracyjnych z haszami
 Name:		perl-Tie-Cfg
